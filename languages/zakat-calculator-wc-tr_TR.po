@@ -1,0 +1,294 @@
+# Turkish translation for Zakat Calculator for WooCommerce
+# Copyright (C) 2025 TE Bilişim
+# This file is distributed under the same license as the Zakat Calculator for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zakat Calculator for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://tebilisim.com\n"
+"POT-Creation-Date: 2025-01-01 12:00:00+0000\n"
+"PO-Revision-Date: 2025-01-28 12:00+0300\n"
+"Last-Translator: TE Bilişim <info@tebilisim.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: zakat-calculator-wc.php
+msgid "Zakat Calculator for WooCommerce requires WooCommerce to be installed and active."
+msgstr "Zekât Hesaplayıcı'nın çalışması için WooCommerce kurulu ve aktif olmalıdır."
+
+#: includes/class-admin-settings.php
+msgid "Zakat Calculator Settings"
+msgstr "Zekât Hesaplayıcı Ayarları"
+
+msgid "Zakat Calculator"
+msgstr "Zekât Hesaplayıcı"
+
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+msgid "Configure basic plugin settings."
+msgstr "Temel eklenti ayarlarını yapılandırın."
+
+msgid "Current Prices"
+msgstr "Güncel Fiyatlar"
+
+msgid "Enter current market prices per gram. These values will be used in the calculator."
+msgstr "Gram başına güncel piyasa fiyatlarını girin. Bu değerler hesaplayıcıda kullanılacaktır."
+
+msgid "Nisab Thresholds"
+msgstr "Nisap Eşikleri"
+
+msgid "Standard nisab thresholds. Gold: 87.48g (7.5 tola), Silver: 612.36g (52.5 tola)"
+msgstr "Standart nisap eşikleri. Altın: 87.48g (7.5 tola), Gümüş: 612.36g (52.5 tola)"
+
+msgid "WooCommerce Product ID"
+msgstr "WooCommerce Ürün ID'si"
+
+msgid "Enter the WooCommerce Product ID for Zakat donations. This product should have a price of 0 (zero)."
+msgstr "Zekât bağışları için WooCommerce Ürün ID'sini girin. Bu ürünün fiyatı 0 (sıfır) olmalıdır."
+
+msgid "Current product: %1$s - %2$s"
+msgstr "Mevcut ürün: %1$s - %2$s"
+
+msgid "Edit Product"
+msgstr "Ürünü Düzenle"
+
+msgid "⚠ Product not found!"
+msgstr "⚠ Ürün bulunamadı!"
+
+msgid "Nisab Calculation Method"
+msgstr "Nisap Hesaplama Yöntemi"
+
+msgid "Gold"
+msgstr "Altın"
+
+msgid "Silver"
+msgstr "Gümüş"
+
+msgid "Silver method is generally recommended as it benefits more people in need."
+msgstr "Gümüş yöntemi, daha fazla ihtiyaç sahibine fayda sağladığı için genellikle önerilir."
+
+msgid "Gold Price (per gram)"
+msgstr "Altın Fiyatı (gram başına)"
+
+msgid "Current Gold Nisab: %1$s%2$s"
+msgstr "Güncel Altın Nisabı: %1$s%2$s"
+
+msgid "Silver Price (per gram)"
+msgstr "Gümüş Fiyatı (gram başına)"
+
+msgid "Current Silver Nisab: %1$s%2$s"
+msgstr "Güncel Gümüş Nisabı: %1$s%2$s"
+
+msgid "Gold Nisab (grams)"
+msgstr "Altın Nisabı (gram)"
+
+msgid "Standard: 87.48 grams (7.5 tola)"
+msgstr "Standart: 87.48 gram (7.5 tola)"
+
+msgid "Silver Nisab (grams)"
+msgstr "Gümüş Nisabı (gram)"
+
+msgid "Standard: 612.36 grams (52.5 tola)"
+msgstr "Standart: 612.36 gram (52.5 tola)"
+
+msgid "Zakat Calculator Setup Required"
+msgstr "Zekât Hesaplayıcı Kurulumu Gerekli"
+
+msgid "Please complete the following to activate the calculator:"
+msgstr "Hesaplayıcıyı etkinleştirmek için lütfen aşağıdakileri tamamlayın:"
+
+msgid "Set WooCommerce Product ID for Zakat donations"
+msgstr "Zekât bağışları için WooCommerce Ürün ID'sini ayarlayın"
+
+msgid "Enter current Gold price per gram"
+msgstr "Gram başına güncel Altın fiyatını girin"
+
+msgid "Enter current Silver price per gram"
+msgstr "Gram başına güncel Gümüş fiyatını girin"
+
+msgid "Settings Saved"
+msgstr "Ayarlar Kaydedildi"
+
+msgid "Quick Setup Guide"
+msgstr "Hızlı Kurulum Kılavuzu"
+
+msgid "Create a WooCommerce product for Zakat donations (set price to 0)"
+msgstr "Zekât bağışları için bir WooCommerce ürünü oluşturun (fiyatı 0 olarak ayarlayın)"
+
+msgid "Enter the Product ID below"
+msgstr "Ürün ID'sini aşağıya girin"
+
+msgid "Set current Gold and Silver prices per gram"
+msgstr "Gram başına güncel Altın ve Gümüş fiyatlarını ayarlayın"
+
+msgid "Add shortcode to any page:"
+msgstr "Herhangi bir sayfaya kısa kod ekleyin:"
+
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+msgid "Need Help?"
+msgstr "Yardıma mı İhtiyacınız Var?"
+
+msgid "For support and documentation, visit:"
+msgstr "Destek ve dokümantasyon için ziyaret edin:"
+
+#: includes/class-shortcode.php
+msgid "Zakat Calculator is not configured yet. Please contact the administrator."
+msgstr "Zekât Hesaplayıcı henüz yapılandırılmadı. Lütfen yöneticiyle iletişime geçin."
+
+msgid "Loading calculator..."
+msgstr "Hesaplayıcı yükleniyor..."
+
+msgid "⚠️ Zakat Calculator Setup Required"
+msgstr "⚠️ Zekât Hesaplayıcı Kurulumu Gerekli"
+
+msgid "Please complete the configuration:"
+msgstr "Lütfen yapılandırmayı tamamlayın:"
+
+msgid "Set WooCommerce Product ID"
+msgstr "WooCommerce Ürün ID'sini Ayarlayın"
+
+msgid "Enter Gold price per gram"
+msgstr "Gram başına Altın fiyatını girin"
+
+msgid "Enter Silver price per gram"
+msgstr "Gram başına Gümüş fiyatını girin"
+
+msgid "Go to Settings"
+msgstr "Ayarlara Git"
+
+#: includes/class-woocommerce.php
+msgid "Security check failed."
+msgstr "Güvenlik kontrolü başarısız oldu."
+
+msgid "Invalid Zakat amount."
+msgstr "Geçersiz Zekât miktarı."
+
+msgid "Zakat product is not configured."
+msgstr "Zekât ürünü yapılandırılmamış."
+
+msgid "Zakat product not found."
+msgstr "Zekât ürünü bulunamadı."
+
+msgid "Zakat added to cart successfully."
+msgstr "Zekât başarıyla sepete eklendi."
+
+msgid "Failed to add Zakat to cart."
+msgstr "Zekât sepete eklenemedi."
+
+msgid "Type"
+msgstr "Tür"
+
+msgid "Zakat Donation"
+msgstr "Zekât Bağışı"
+
+msgid "Donation Type"
+msgstr "Bağış Türü"
+
+msgid "Zakat"
+msgstr "Zekât"
+
+msgid "Calculated Amount"
+msgstr "Hesaplanan Tutar"
+
+#: Frontend translations
+msgid "NISAB VALUES"
+msgstr "NİSAP DEĞERLERİ"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Currency"
+msgstr "Para Birimi"
+
+msgid "Your Assets"
+msgstr "Varlıklarınız"
+
+msgid "Cash (on hand & bank)"
+msgstr "Nakit (El ve Banka)"
+
+msgid "Gold & Silver"
+msgstr "Altın ve Gümüş"
+
+msgid "Include gold"
+msgstr "Altını dahil et"
+
+msgid "Gold (grams)"
+msgstr "Altın (gram)"
+
+msgid "Gold total value"
+msgstr "Altın toplam değeri"
+
+msgid "Include silver"
+msgstr "Gümüşü dahil et"
+
+msgid "Silver (grams)"
+msgstr "Gümüş (gram)"
+
+msgid "Silver total value"
+msgstr "Gümüş toplam değeri"
+
+msgid "Investments & Shares"
+msgstr "Yatırımlar ve Hisse Senetleri"
+
+msgid "Include investments"
+msgstr "Yatırımları dahil et"
+
+msgid "Investment value"
+msgstr "Yatırım değeri"
+
+msgid "Money Owed to You"
+msgstr "Size Borçlu Olunan Para"
+
+msgid "Include receivables"
+msgstr "Alacakları dahil et"
+
+msgid "Receivables (collectable)"
+msgstr "Alacaklar (tahsil edilebilir)"
+
+msgid "Business Assets (Stock)"
+msgstr "Ticari Varlıklar (Stok)"
+
+msgid "Include business assets"
+msgstr "Ticari varlıkları dahil et"
+
+msgid "Business assets value"
+msgstr "Ticari varlıklar değeri"
+
+msgid "Deductible Debts"
+msgstr "Düşülebilir Borçlar"
+
+msgid "Immediate debts (due now)"
+msgstr "Acil borçlar (şimdi ödenecek)"
+
+msgid "Summary"
+msgstr "Özet"
+
+msgid "Total Assets"
+msgstr "Toplam Varlıklar"
+
+msgid "Total Debts"
+msgstr "Toplam Borçlar"
+
+msgid "Net Wealth"
+msgstr "Net Servet"
+
+msgid "Nisab Threshold"
+msgstr "Nisap Eşiği"
+
+msgid "Total Zakat Payable"
+msgstr "Ödenecek Toplam Zekât"
+
+msgid "I have held this amount for at least one lunar year"
+msgstr "Bu miktarı en az bir kameri yıl tuttum"
+
+msgid "Add to Cart"
+msgstr "Sepete Ekle"
+
+msgid "Reset"
+msgstr "Sıfırla"

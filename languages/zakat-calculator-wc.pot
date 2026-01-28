@@ -1,0 +1,289 @@
+# Copyright (C) 2025 Zakat Calculator for WooCommerce
+# This file is distributed under the same license as the Zakat Calculator for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zakat Calculator for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://tebilisim.com\n"
+"POT-Creation-Date: 2025-01-01 12:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: TE Bilişim\n"
+
+#: zakat-calculator-wc.php
+msgid "Zakat Calculator for WooCommerce requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-admin-settings.php
+msgid "Zakat Calculator Settings"
+msgstr ""
+
+msgid "Zakat Calculator"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Configure basic plugin settings."
+msgstr ""
+
+msgid "Current Prices"
+msgstr ""
+
+msgid "Enter current market prices per gram. These values will be used in the calculator."
+msgstr ""
+
+msgid "Nisab Thresholds"
+msgstr ""
+
+msgid "Standard nisab thresholds. Gold: 87.48g (7.5 tola), Silver: 612.36g (52.5 tola)"
+msgstr ""
+
+msgid "WooCommerce Product ID"
+msgstr ""
+
+msgid "Enter the WooCommerce Product ID for Zakat donations. This product should have a price of 0 (zero)."
+msgstr ""
+
+msgid "Current product: %1$s - %2$s"
+msgstr ""
+
+msgid "Edit Product"
+msgstr ""
+
+msgid "⚠ Product not found!"
+msgstr ""
+
+msgid "Nisab Calculation Method"
+msgstr ""
+
+msgid "Gold"
+msgstr ""
+
+msgid "Silver"
+msgstr ""
+
+msgid "Silver method is generally recommended as it benefits more people in need."
+msgstr ""
+
+msgid "Gold Price (per gram)"
+msgstr ""
+
+msgid "Current Gold Nisab: %1$s%2$s"
+msgstr ""
+
+msgid "Silver Price (per gram)"
+msgstr ""
+
+msgid "Current Silver Nisab: %1$s%2$s"
+msgstr ""
+
+msgid "Gold Nisab (grams)"
+msgstr ""
+
+msgid "Standard: 87.48 grams (7.5 tola)"
+msgstr ""
+
+msgid "Silver Nisab (grams)"
+msgstr ""
+
+msgid "Standard: 612.36 grams (52.5 tola)"
+msgstr ""
+
+msgid "Zakat Calculator Setup Required"
+msgstr ""
+
+msgid "Please complete the following to activate the calculator:"
+msgstr ""
+
+msgid "Set WooCommerce Product ID for Zakat donations"
+msgstr ""
+
+msgid "Enter current Gold price per gram"
+msgstr ""
+
+msgid "Enter current Silver price per gram"
+msgstr ""
+
+msgid "Settings Saved"
+msgstr ""
+
+msgid "Quick Setup Guide"
+msgstr ""
+
+msgid "Create a WooCommerce product for Zakat donations (set price to 0)"
+msgstr ""
+
+msgid "Enter the Product ID below"
+msgstr ""
+
+msgid "Set current Gold and Silver prices per gram"
+msgstr ""
+
+msgid "Add shortcode to any page:"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Need Help?"
+msgstr ""
+
+msgid "For support and documentation, visit:"
+msgstr ""
+
+#: includes/class-shortcode.php
+msgid "Zakat Calculator is not configured yet. Please contact the administrator."
+msgstr ""
+
+msgid "Loading calculator..."
+msgstr ""
+
+msgid "⚠️ Zakat Calculator Setup Required"
+msgstr ""
+
+msgid "Please complete the configuration:"
+msgstr ""
+
+msgid "Set WooCommerce Product ID"
+msgstr ""
+
+msgid "Enter Gold price per gram"
+msgstr ""
+
+msgid "Enter Silver price per gram"
+msgstr ""
+
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/class-woocommerce.php
+msgid "Security check failed."
+msgstr ""
+
+msgid "Invalid Zakat amount."
+msgstr ""
+
+msgid "Zakat product is not configured."
+msgstr ""
+
+msgid "Zakat product not found."
+msgstr ""
+
+msgid "Zakat added to cart successfully."
+msgstr ""
+
+msgid "Failed to add Zakat to cart."
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Zakat Donation"
+msgstr ""
+
+msgid "Donation Type"
+msgstr ""
+
+msgid "Zakat"
+msgstr ""
+
+msgid "Calculated Amount"
+msgstr ""
+
+#: Frontend translations
+msgid "NISAB VALUES"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Your Assets"
+msgstr ""
+
+msgid "Cash (on hand & bank)"
+msgstr ""
+
+msgid "Gold & Silver"
+msgstr ""
+
+msgid "Include gold"
+msgstr ""
+
+msgid "Gold (grams)"
+msgstr ""
+
+msgid "Gold total value"
+msgstr ""
+
+msgid "Include silver"
+msgstr ""
+
+msgid "Silver (grams)"
+msgstr ""
+
+msgid "Silver total value"
+msgstr ""
+
+msgid "Investments & Shares"
+msgstr ""
+
+msgid "Include investments"
+msgstr ""
+
+msgid "Investment value"
+msgstr ""
+
+msgid "Money Owed to You"
+msgstr ""
+
+msgid "Include receivables"
+msgstr ""
+
+msgid "Receivables (collectable)"
+msgstr ""
+
+msgid "Business Assets (Stock)"
+msgstr ""
+
+msgid "Include business assets"
+msgstr ""
+
+msgid "Business assets value"
+msgstr ""
+
+msgid "Deductible Debts"
+msgstr ""
+
+msgid "Immediate debts (due now)"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Total Assets"
+msgstr ""
+
+msgid "Total Debts"
+msgstr ""
+
+msgid "Net Wealth"
+msgstr ""
+
+msgid "Nisab Threshold"
+msgstr ""
+
+msgid "Total Zakat Payable"
+msgstr ""
+
+msgid "I have held this amount for at least one lunar year"
+msgstr ""
+
+msgid "Add to Cart"
+msgstr ""
+
+msgid "Reset"
+msgstr ""

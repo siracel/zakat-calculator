@@ -1,0 +1,647 @@
+/**
+ * Zakat Calculator - Frontend Styles
+ * Version: 1.0.0
+ * Hybrid design: InYourHand + Sadaqah UK
+ */
+
+/* ========================================
+   Base Styles
+   ======================================== */
+
+#zcwc-calculator-app {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ========================================
+   Current Prices Input Section
+   ======================================== */
+
+.zcwc-prices-input {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 35px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+}
+
+.zcwc-prices-header h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.zcwc-info-banner {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 12px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.zcwc-info-banner svg {
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.zcwc-info-banner span {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.95;
+}
+
+.zcwc-prices-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.zcwc-price-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.zcwc-price-input-group label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.95;
+}
+
+.zcwc-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.zcwc-input-wrapper:focus-within {
+    background: white;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
+}
+
+.zcwc-input-prefix,
+.zcwc-input-suffix {
+    padding: 14px 12px;
+    background: rgba(0, 0, 0, 0.05);
+    color: #666;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.zcwc-input-prefix {
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.zcwc-input-suffix {
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 13px;
+}
+
+.zcwc-price-input {
+    flex: 1;
+    padding: 14px 12px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.zcwc-price-input:focus {
+    outline: none;
+}
+
+.zcwc-price-input::placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+.zcwc-select {
+    padding: 14px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.zcwc-select:focus {
+    outline: none;
+    border-color: white;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+.zcwc-helper-text {
+    display: block;
+    margin-top: 8px;
+    font-size: 11px;
+    opacity: 0.85;
+    font-style: italic;
+}
+
+@media screen and (max-width: 968px) {
+    .zcwc-prices-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .zcwc-prices-input {
+        padding: 25px 20px;
+    }
+}
+
+/* ========================================
+   Header
+   ======================================== */
+
+.zcwc-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.zcwc-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+}
+
+/* ========================================
+   Nisab Information Bar
+   ======================================== */
+
+.zcwc-nisab-info {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.zcwc-nisab-info h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.zcwc-nisab-display {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.zcwc-nisab-item {
+    background: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 2px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.zcwc-nisab-item.active {
+    border-color: #2ecc71;
+    background: #e8f8f0;
+}
+
+.zcwc-nisab-item .zcwc-label {
+    font-weight: 600;
+    color: #555;
+    margin-right: 8px;
+}
+
+.zcwc-nisab-item .zcwc-value {
+    color: #2ecc71;
+    font-weight: 600;
+}
+
+.zcwc-nisab-note {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+/* ========================================
+   Calculator Grid Layout
+   ======================================== */
+
+.zcwc-calculator-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+/* ========================================
+   Form Column (Left)
+   ======================================== */
+
+.zcwc-form-column {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.zcwc-section {
+    margin-bottom: 30px;
+}
+
+.zcwc-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2ecc71;
+}
+
+/* Field Groups */
+.zcwc-field-group {
+    margin-bottom: 20px;
+}
+
+.zcwc-field-group label {
+    display: block;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.zcwc-field-group input[type="number"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.zcwc-field-group input[type="number"]:focus {
+    outline: none;
+    border-color: #2ecc71;
+    box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.1);
+}
+
+.zcwc-field-note {
+    display: block;
+    margin-top: 6px;
+    color: #2ecc71;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.zcwc-field-note.zcwc-warning {
+    color: #e74c3c;
+    font-style: italic;
+}
+
+/* Toggle Sections */
+.zcwc-toggle-section {
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.zcwc-toggle-header {
+    margin-bottom: 0;
+}
+
+.zcwc-toggle-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.zcwc-toggle-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    accent-color: #2ecc71;
+}
+
+.zcwc-toggle-content {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.zcwc-sub-toggle {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.zcwc-sub-toggle input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #2ecc71;
+}
+
+/* Debts Section */
+.zcwc-debts-section {
+    background: #fff3cd;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #ffc107;
+}
+
+.zcwc-debts-section h3 {
+    border-bottom-color: #ffc107;
+    color: #856404;
+}
+
+/* ========================================
+   Summary Column (Right)
+   ======================================== */
+
+.zcwc-summary-column {
+    position: sticky;
+    top: 20px;
+}
+
+.zcwc-summary-box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.zcwc-summary-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2ecc71;
+}
+
+/* Summary Rows */
+.zcwc-summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 15px;
+}
+
+.zcwc-summary-row span:first-child {
+    color: #666;
+}
+
+.zcwc-summary-row strong {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.zcwc-summary-row.zcwc-negative strong {
+    color: #e74c3c;
+}
+
+.zcwc-summary-row.zcwc-divider {
+    border-top: 2px solid #e0e0e0;
+    border-bottom: 2px solid #e0e0e0;
+    margin: 10px 0;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.zcwc-summary-row.zcwc-info {
+    background: #e8f8f0;
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+/* Nisab Status */
+.zcwc-nisab-status {
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.zcwc-nisab-status.above-nisab {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.zcwc-nisab-status.below-nisab {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.zcwc-nisab-status p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Held Checkbox */
+.zcwc-held-checkbox {
+    background: #e8f8f0;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.zcwc-held-checkbox label {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.zcwc-held-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    margin-top: 2px;
+    cursor: pointer;
+    accent-color: #2ecc71;
+    flex-shrink: 0;
+}
+
+/* Zakat Result */
+.zcwc-zakat-result {
+    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.zcwc-zakat-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.zcwc-zakat-amount {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+/* Action Buttons */
+.zcwc-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.zcwc-btn {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.zcwc-btn-primary {
+    background: #ff6b35;
+    color: white;
+}
+
+.zcwc-btn-primary:hover:not(:disabled) {
+    background: #e85a2a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.zcwc-btn-primary:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.zcwc-btn-secondary {
+    background: #fff;
+    color: #333;
+    border: 2px solid #ddd;
+}
+
+.zcwc-btn-secondary:hover {
+    background: #f8f9fa;
+    border-color: #bbb;
+}
+
+/* ========================================
+   Responsive Design
+   ======================================== */
+
+@media screen and (max-width: 968px) {
+    .zcwc-calculator-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .zcwc-summary-column {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #zcwc-calculator-app {
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+    .zcwc-header h2 {
+        font-size: 24px;
+    }
+    
+    .zcwc-form-column,
+    .zcwc-summary-box {
+        padding: 20px;
+    }
+    
+    .zcwc-nisab-display {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .zcwc-nisab-item {
+        width: 100%;
+    }
+    
+    .zcwc-actions {
+        flex-direction: column;
+    }
+    
+    .zcwc-zakat-amount {
+        font-size: 28px;
+    }
+}
+
+/* ========================================
+   Loading State
+   ======================================== */
+
+.zcwc-loading {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.zcwc-spinner {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2ecc71;
+    border-radius: 50%;
+    animation: zcwc-spin 1s linear infinite;
+}
+
+@keyframes zcwc-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

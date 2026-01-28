@@ -1,0 +1,125 @@
+/**
+ * Zakat Calculator - Admin Styles
+ * Version: 1.0.0
+ */
+
+.zcwc-admin-wrapper {
+    max-width: 900px;
+    margin: 20px 0;
+}
+
+.zcwc-admin-wrapper h1 {
+    margin-bottom: 20px;
+}
+
+.zcwc-admin-wrapper h2 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.zcwc-settings-header {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #2ecc71;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.zcwc-settings-header h2 {
+    margin-top: 0;
+    border-bottom: none;
+    color: #2ecc71;
+}
+
+.zcwc-settings-header ol {
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.zcwc-settings-header code {
+    background: #f0f0f1;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.zcwc-info-box {
+    background: #f0f0f1;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.zcwc-info-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.form-table th {
+    width: 250px;
+    padding: 20px 10px 20px 0;
+}
+
+.form-table td {
+    padding: 20px 10px;
+}
+
+.form-table input[type="number"],
+.form-table select {
+    max-width: 200px;
+}
+
+.form-table .description {
+    display: block;
+    margin-top: 8px;
+    color: #646970;
+    font-style: italic;
+}
+
+/* Notices */
+.notice.notice-warning ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Submit button */
+.zcwc-admin-wrapper .submit {
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+.zcwc-admin-wrapper .button-primary {
+    background: #2ecc71;
+    border-color: #27ae60;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 8px 20px;
+    height: auto;
+    font-size: 14px;
+}
+
+.zcwc-admin-wrapper .button-primary:hover {
+    background: #27ae60;
+    border-color: #229954;
+}
+
+/* Product ID field styling */
+#zcwc_product_id {
+    width: 100px;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .form-table th {
+        width: auto;
+        padding: 15px 10px 15px 0;
+    }
+    
+    .form-table td {
+        padding: 15px 10px;
+    }
+}
