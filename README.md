@@ -41,29 +41,18 @@ Advanced Zakat calculator with WooCommerce payment integration.
 4. Select Nisab calculation method (Gold or Silver)
 5. Set WooCommerce Product ID for Zakat donations
 
-## Development Roadmap
+## Implemented Features
 
-### Phase 1 - Core Features (Current)
 - [x] Plugin structure
-- [ ] Admin settings page
-- [ ] Vue.js calculator interface
-- [ ] WooCommerce integration
-- [ ] Basic styling
-
-### Phase 2 - Enhancements
-- [ ] Multiple currencies
-- [ ] PDF report generation
-- [ ] Email notifications
-- [ ] Calculation history
-
-### Phase 3 - Advanced
-- [ ] Analytics dashboard
-- [ ] Custom email templates
-- [ ] Advanced reporting
+- [x] Admin settings page
+- [x] Vue.js calculator interface
+- [x] WooCommerce integration
+- [x] Basic styling
+- [x] Multiple currencies (via WooCommerce)
 
 ## Version History
 
-### 1.0.0 (In Development)
+### 1.0.1
 - Initial release
 - Core calculation functionality
 - WooCommerce integration
